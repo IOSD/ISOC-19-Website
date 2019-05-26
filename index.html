@@ -26,6 +26,7 @@
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -97,7 +98,7 @@
 							<img src='img/iosd-white.png' class="img-responsive" style="padding : 10% 12% 5% 12%">
 							<h1>IOSD Summer Of Code</h1>
 							<h4 class="lead">India's Leading Open source development based student run Organisation.</h4>
-							<a href="#" class="main-btn">Start Contributing Now</a>
+							<a href="#cta" class="main-btn">Start Contributing Now</a>
 						</div>
 					</div>
 					<!-- /home content -->
@@ -186,11 +187,7 @@
 							and goodies.
 							<br>
 							<br>
-							We are organising special introductory sessions that can be streamed over our twitch channel
-							@iosdofficial as well as students can visit our Adarsh Nagar Campus for the same.
-							<br>
-							<br>
-
+							
 						</p>
 					</div>
 					<!-- /about content -->
@@ -227,7 +224,7 @@
 							<!-- /number -->
 
 							<!-- number -->
-							<div class="col-md-3 col-sm-4 col-xs-6">
+							<div class="col-md-3 col-sm-3 col-xs-6">
 								<div class="number">
 									<h3><span class="counter" data-from="0" data-to="1500000" data-speed="1500" style="color: #00bfff;">0</span>+</h3>
 									<p>Lines of Code</p>
@@ -457,12 +454,13 @@
 			<!-- container -->
 			<div class="row">
 				<!-- cta content -->
-				<div class="col-md-8 col-md-offset-2">
-					<div class="cta-content text-center">
-						<h2>Register Now!</h2>
-						<p class="lead">Register now to avail awesome swags and prizes after project submission in OSSI</p>
-						<a href="#" class="main-btn">Register</a>
-					</div>
+				<div class="col-md-6" >
+					<img class=" d-none d-md-block" src='img/about-extra-2.svg' style="width: 100%; height: -webkit-fill-available;">
+				</div>
+				<div class=" col-md-6">
+					<iframe src="https://alicekeeler.com/2017/01/04/google-forms-choose-random-winner/" style="width: -webkit-fill-available; height: -webkit-fill-available; ">
+						<a>click here for registration form</a>
+					</iframe>
 				</div>
 				<!-- /cta content -->
 			</div>
@@ -476,20 +474,22 @@
 	<div id="Projects" class="section">
 		<!-- section title -->
 		<div class="section-title">
-			<h3 class="title"><span>Our</span> <span style="color: #00bfff;">Projects</span></h3>
+			<h3 class="title"><span style="color: #00bfff;">Projects</span></h3>
 		</div>
 		<!-- section title -->
 			
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4 col-md-3 ">
+					<!-- <a > -->
 					<div class="card">
 						<div class="card-content">
 							<h4 class="card-title">
-								<a href="#">Summer Project Title</a>
+								<a data-toggle="modal" data-target="#CodeIt">Code It</a>
 							</h4>
-							<p class="">
-								Project Discription
+							<p class="card-body">
+								Design an Online Coding Test App with IDE for
+								languages like Python, C++, C, Java.
 							</p>
 						</div>
 						<div class="card-read-more">
@@ -497,15 +497,44 @@
 								Contribute Now</a>
 						</div>
 					</div>
+					<!-- </a> -->
+					<div id="CodeIt" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Code It</h4>
+								</div>
+								<div class="modal-body">
+									<p>
+										Task is to design an Online Coding Test App with IDE for famous programming
+										languages like Python, C++, C, Java. This will be just like Codechef, but with
+										fewer functionalities. The user will login using pre-provided credentials, complete
+										the test and then the score will be recorded in database for Test Admins. Test
+										Admins will have ability to make a test and send invitations for the same.
+									</p>
+									<br>
+									<p>
+										<b style="color: #00bfff">Skills Required :</b>
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-default" href="#">Contribute Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-4 col-md-3 ">
+					<!-- <a > -->
 					<div class="card">
 						<div class="card-content">
 							<h4 class="card-title">
-								<a href="#">Summer Project Title</a>
+								<a data-toggle="modal" data-target="#PersonalBlogWebsiteGenerator">Personal Blog Website Generator</a>
 							</h4>
-							<p class="">
-								Project Discription
+							<p class="card-body">
+								Task is to design a web app to generate personal blog website
 							</p>
 						</div>
 						<div class="card-read-more">
@@ -513,15 +542,45 @@
 								Contribute Now</a>
 						</div>
 					</div>
+					<!-- </a> -->
+					<div id="PersonalBlogWebsiteGenerator" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Personal Blog Website Generator</h4>
+								</div>
+								<div class="modal-body">
+									<p>
+										Task is to design a web app to generate personal blog website by taking input
+										about the user such as name, social media handles, etc. The users will also have
+										option to choose from different templates for their personal blog website. Project
+										teams may work on interesting features such as displaying user’s social feeds on
+										the blog website.
+									</p>
+									<br>
+									<p>
+										<b style="color: #00bfff">Skills Required :</b>
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-default" href="#">Contribute Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-4 col-md-3 ">
+					<!-- <a > -->
 					<div class="card">
 						<div class="card-content">
 							<h4 class="card-title">
-								<a href="#">Summer Project Title</a>
+								<a data-toggle="modal" data-target="#LearnEmAll">Learn 'Em All</a>
 							</h4>
-							<p class="">
-								Project Discription
+							<p class="card-body">
+								Design a machine learning framework with basic
+								support for algorithms
 							</p>
 						</div>
 						<div class="card-read-more">
@@ -529,20 +588,519 @@
 								Contribute Now</a>
 						</div>
 					</div>
+					<!-- </a> -->
+					<div id="LearnEmAll" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Learn 'Em All</h4>
+								</div>
+								<div class="modal-body">
+									<p>
+										Task is to design a machine learning framework (python-library) with basic
+										support for algorithms like Naive Bayes Classifier, Linear SVMs, Decision Tree
+										Classifier, K-nearest neighbor Classifier, Random Forest Classifier, Linear
+										Regression and K-means clustering.											
+									</p>
+									<br>
+									<p>
+										<b style="color: #00bfff">Skills Required :</b> data structures and algorithms , machine learning with python
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-default" href="#">Contribute Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-4 col-md-3 ">
+					<!-- <a > -->
 					<div class="card">
 						<div class="card-content">
 							<h4 class="card-title">
-								<a href="#">Summer Project Title</a>
+								<a data-toggle="modal" data-target="#WhereMyFriend">Where's My Friend</a>
 							</h4>
-							<p class="">
-								Project Discription
+							<p class="card-body">
+								Design a Location sharing app enabling users to
+								share location with friends in real time
 							</p>
 						</div>
 						<div class="card-read-more">
 							<a href="#" class="btn btn-link btn-block">
 								Contribute Now</a>
+						</div>
+					</div>
+					<!-- </a> -->
+					<div id="WhereMyFriend" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Where My Friend</h4>
+								</div>
+								<div class="modal-body">
+									<p>
+										Task is to design a Location sharing app (like Snapchat Map) enabling users to
+										share their location with their friends in real time. App should have innovative
+										features like call to nearby friends for help, finding your friend in a concert, etc.											
+									</p>
+									<br>
+									<p>
+										<b style="color: #00bfff">Skills Required :</b>
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-default" href="#">Contribute Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-3 ">
+					<!-- <a > -->
+					<div class="card">
+						<div class="card-content">
+							<h4 class="card-title">
+								<a data-toggle="modal" data-target="#FindMyProject">Find My Project</a>
+							</h4>
+							<p class="card-body">
+								Task of this project will be to make a Project Recommendation System 
+							</p>
+						</div>
+						<div class="card-read-more">
+							<a href="#" class="btn btn-link btn-block">
+								Contribute Now</a>
+						</div>
+					</div>
+					<!-- </a> -->
+					<div id="FindMyProject" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Find My Project</h4>
+								</div>
+								<div class="modal-body">
+									<p>
+										Task of this project will be to make a Project Recommendation System . It will be
+										constituting following parts:
+										<br>
+									 	1. A user interacting with an application through the browser,
+										<br>
+										2. A web application that can manage Projects, users, ratings
+										<br>
+										3. A Recommendation engine
+									</p>
+									<br>
+									<p>
+										<b style="color: #00bfff">Skills Required :</b>  JavaScript , HTML ,CSS
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-default" href="#">Contribute Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-3 ">
+					<!-- <a > -->
+					<div class="card">
+						<div class="card-content">
+							<h4 class="card-title">
+								<a data-toggle="modal" data-target="#MakeMyCV">Make My CV</a>
+							</h4>
+							<p class="card-body">
+								Web application which will be
+								making CV by filling the corresponding information in the suitable template							</p>
+						</div>
+						<div class="card-read-more">
+							<a href="#" class="btn btn-link btn-block">
+								Contribute Now</a>
+						</div>
+					</div>
+					<!-- </a> -->
+					<div id="MakeMyCV" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Make My CV</h4>
+								</div>
+								<div class="modal-body">
+									<p>Task of this project will constitute development of a web application which will be
+											making CV by filling the corresponding information in the suitable template that would
+											be selected by the user among various available templates. General information
+											regarding every field would be kept as a section , such as:
+											<br>
+											1. NAME
+											<br>
+											2. EDUCATIONAL QUALIFICATIONS
+											<br>
+											3. PAST WORKING EXPERIENCES
+											<br>
+											4. POSITION OF RESPONSIBILITY
+											<br>
+											5. PUBLICATIONS
+											<br>
+											6. PROJECTS
+											<br>
+											7. SKILLS
+											<br>
+											8. LICENSES AND CERTIFICATES
+											<br>
+											9. SPECIAL ACHIEVEMENTS
+									</p>
+									<br>
+									<p>
+										<b style="color: #00bfff">Skills Required :</b>  JavaScript , HTML ,CSS
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-default" href="#">Contribute Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-3 ">
+					<!-- <a > -->
+					<div class="card">
+						<div class="card-content">
+							<h6 class="card-title" style="font-size: 1.45em">
+								<a data-toggle="modal" data-target="#ObjectDetectionInDroneForDelhiPolice">Object Detection In Drone For Delhi Police</a>
+							</h6>
+							<p class="card-body">
+								Applying MACHINE LEARNING concepts on object detections for
+								helping DELHI POLICE in detection and prevention of criminal activities in its vicinity .
+							</p>
+						</div>
+						<div class="card-read-more">
+							<a href="#" class="btn btn-link btn-block">
+								Contribute Now</a>
+						</div>
+					</div>
+					<!-- </a> -->
+					<div id="ObjectDetectionInDroneForDelhiPolice" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Object Detection In Drone For Delhi Police</h4>
+								</div>
+								<div class="modal-body">
+									<p>
+										This project has been the most successful one by far . The first phase of this project has
+										been submitted and the second phase is ongoing .
+										This project focuses on applying MACHINE LEARNING concepts on object detections for
+										helping DELHI POLICE in detection and prevention of criminal activities in its vicinity .
+										It should carry various types of equipment including live-feed video cameras,
+										infrared cameras, heat sensors, and radar.
+									</p>
+									<br>
+									<p>
+										<b style="color: #00bfff">Skills Required :</b> Arduino
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-default" href="#">Contribute Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-3 ">
+					<!-- <a > -->
+					<div class="card">
+						<div class="card-content">
+							<h4 class="card-title">
+								<a data-toggle="modal" data-target="#MEIDA">M.E.I.D.A.</a>
+							</h4>
+							<p class="card-body">
+								Design a mobile app in which a user can record any music, click any
+								picture and is provided with the emotions corresponding to the image/music
+							</p>
+						</div>
+						<div class="card-read-more">
+							<a href="#" class="btn btn-link btn-block">
+								Contribute Now</a>
+						</div>
+					</div>
+					<!-- </a> -->
+					<div id="MEIDA" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">M.E.I.D.A.</h4>
+								</div>
+								<div class="modal-body">
+									<p>
+										Task is to design a mobile app in which a user can record any music, click any
+										picture and is provided with the emotions corresponding to the image/music. This
+										app will be based on backend modules which will consist of a deep learning
+										model trained on tagged dataset consisting of image and music files. In the case
+										of insufficient data, project team will curate a new dataset..
+									</p>
+									<br>
+									<p>
+										<b style="color: #00bfff">Skills Required :</b> Python/R/MATLAB, Good knowledge of Deep Learning
+										algorithms, Tensorflow, Keras, CNN, Android/iOS App Development.										
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-default" href="#">Contribute Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-3 ">
+					<!-- <a > -->
+					<div class="card">
+						<div class="card-content">
+							<h4 class="card-title">
+								<a data-toggle="modal" data-target="#CMS">Course Management System</a>
+							</h4>
+							<p class="card-body">
+								Make a CMS App like Udacity with admin features like adding
+								course catalog, videos for each course, updating content, etc.
+							</p>
+						</div>
+						<div class="card-read-more">
+							<a href="#" class="btn btn-link btn-block">
+								Contribute Now</a>
+						</div>
+					</div>
+					<!-- </a> -->
+					<div id="CMS" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Course Management System</h4>
+								</div>
+								<div class="modal-body">
+									<p>
+										Task is to make a CMS App like Udacity with admin features like adding
+										course catalog, videos for each course, updating content, etc. Videos will be
+										streamed from youtube, vimeo or any other hosting platform. Users will be able
+										to enroll themselves in any number of courses and complete it in a self paced
+										manner
+									</p>
+									<br>
+									<p>
+										<b style="color: #00bfff">Skills Required :</b>										
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-default" href="#">Contribute Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-3 ">
+					<!-- <a > -->
+					<div class="card">
+						<div class="card-content">
+							<h4 class="card-title">
+								<a data-toggle="modal" data-target="#SocialMediaAnalyzer">Social Media Analyzer</a>
+							</h4>
+							<p class="card-body">
+								Gathering and analysing data from social media such as twitter ,
+								facebook and tracking conversations and trends about companies and products
+							</p>
+						</div>
+						<div class="card-read-more">
+							<a href="#" class="btn btn-link btn-block">
+								Contribute Now</a>
+						</div>
+					</div>
+					<!-- </a> -->
+					<div id="SocialMediaAnalyzer" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Social Media Analyzer</h4>
+								</div>
+								<div class="modal-body">
+									<p>
+										Task will be gathering and analysing data from social media networks such as twitter ,
+										facebook and tracking conversations and trends about companies and products. By
+										using DATA ANALYTICS AND DATA ANALYTICS , it will include important questions like
+										: “who” , “where” , “how” , “why”, “ when “ and “ how” ?
+									</p>
+									<br>
+									<p>
+										<b style="color: #00bfff">Skills Required :</b> Python/R/MATLAB, Good knowledge of Deep Learning
+										algorithms, Tensorflow, Keras, CNN, Android/iOS App Development.										
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-default" href="#">Contribute Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><div class="col-sm-4 col-md-3 ">
+					<!-- <a > -->
+					<div class="card">
+						<div class="card-content">
+							<h4 class="card-title">
+								<a data-toggle="modal" data-target="#URLShortnerWithAnalytics">URL Shortner With Analytics</a>
+							</h4>
+							<p class="card-body">
+								You can shorten URLs to make them easier to share using various URL
+								shorteners
+							</p>
+						</div>
+						<div class="card-read-more">
+							<a href="#" class="btn btn-link btn-block">
+								Contribute Now</a>
+						</div>
+					</div>
+					<!-- </a> -->
+					<div id="URLShortnerWithAnalytics" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">URL Shortner With Analytics</h4>
+								</div>
+								<div class="modal-body">
+									<p>
+											You can shorten URLs to make them easier to share using various URL
+											shorteners . This is achieved by using a redirect which links to the web page that
+											has a long URL. This is very helpful as it makes easier for a person to share
+											and recognise URLs. It also seems to be aesthetically pleasing .
+									</p>
+									<br>
+									<p>
+										<b style="color: #00bfff">Skills Required :</b> 
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-default" href="#">Contribute Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 col-md-3 ">
+					<!-- <a > -->
+					<div class="card">
+						<div class="card-content">
+							<h4 class="card-title">
+								<a data-toggle="modal" data-target="#AssignmentSubmittionPortal">Assignment Submittion Portal</a>
+							</h4>
+							<p class="card-body">
+								Develop a portal where students undertaking the Web Dev or Android
+								course can submit their assignments
+							</p>
+						</div>
+						<div class="card-read-more">
+							<a href="#" class="btn btn-link btn-block">
+								Contribute Now</a>
+						</div>
+					</div>
+					<!-- </a> -->
+					<div id="AssignmentSubmittionPortal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Assignment Submittion Portal</h4>
+								</div>
+								<div class="modal-body">
+									<p>
+										Task is to develop a portal where students undertaking the Web Dev or Android
+										course can submit their assignments. Using mern stack , develop a portal for the
+										submittions.
+										The following features should be covered : Signup, Teacher Features, Create courses,
+										Add assignment to course, Set last submission date to assignment, Enroll into a course,
+										Submit an assignment, See marks of assignments, Student Features, Duplicate a course (copying all assignments)										
+									</p>
+									<br>
+									<p>
+										<b style="color: #00bfff">Skills Required :</b> 										
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-default" href="#">Contribute Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-8 col-md-9">
+					<div class="row">
+						<div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-6">
+							<!-- <a > -->
+							<div class="card">
+								<div class="card-content">
+									<h4 class="card-title">
+										<a data-toggle="modal" data-target="#HiringPortal">Hiring Portal</a>
+									</h4>
+									<p class="card-body">
+										Develop a portal where students and companies can be connected
+										with each other for prospective jobs and/or internships							
+									</p>
+								</div>
+								<div class="card-read-more">
+									<a href="#" class="btn btn-link btn-block">
+										Contribute Now</a>
+								</div>
+							</div>
+							<!-- </a> -->
+							<div id="HiringPortal" class="modal fade" role="dialog">
+								<div class="modal-dialog">
+									<!-- Modal content-->
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title">Hiring Portal</h4>
+										</div>
+										<div class="modal-body">
+											<p>
+												Task is to develop a portal where students and companies can be connected
+												with each other for prospective jobs and/or internships. There are two user
+												stories we are trying to build here - From the students perspective Signup on the
+												platform Create profile page Add CV/Resume to profile page Add links to projects
+												and papers System generate “tags” for the student’s profile based on strengths
+												and experiences Student can browse companies Student can search openings
+												based on filters like required skills From the company representative perspective
+												Signup on the platform Create company profile page Create openings. Each
+												opening is a separate entity Add required skill sets for each opening Browse
+												students Search students based on filters like skill sets, experience etc
+											</p>
+											<br>
+											<p>
+												<b style="color: #00bfff">Skills Required :</b>							
+											</p>
+										</div>
+										<div class="modal-footer">
+											<button class="btn btn-default" href="#">Contribute Now</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<br>
+							<br>
+							<h4 style="text-align-last: center;"><a href="https://github.com/IOSD">And Many More</a></h4>
 						</div>
 					</div>
 				</div>
@@ -557,12 +1115,14 @@
 		<!-- section title -->
 		<div class="section-title">
 			<h3 class="title"><span>Our</span> <span style="color: #00bfff;">Mentors</span></h3>
+			<br>
+			<br>
+			<h3> Mentor will be announced on 2nd June</h3>
 		</div>
 		<!-- section title -->
 
 		<!-- container -->
-		<div class="container">
-			<h3> Mentor will be announced on 2nd June</h3>
+		<!-- <div class="container"> -->
 			<!-- row -->
 			<!-- <div class="row"> -->
 				<!-- speaker -->
@@ -960,7 +1520,7 @@
 		<!-- contact social -->
 <!-- /container -->
 <footer id="footer">
-		<div class="footer-top">
+		<div class="footer-top" style="padding-bottom: 0px; padding-top: 10px;">
 		  <div class="container-fluid">
 			<div class="row">
 	
@@ -983,7 +1543,7 @@
 			  </div>
 	
 	
-			  <div class="col-lg-4 col-md-12 col-sm-12 offset-lg-0 offset-md-1 offset-sm-1 offset-1 footer-contact">
+			  <div class="col-lg-4 col-md-12 col-sm-12 offset-lg-0 offset-md-1 offset-sm-1 offset-1 footer-contact" style=" margin-bottom: 0px;">
 				<br>
 				<h4>Contact Us</h4>
 				<p>
@@ -1001,14 +1561,10 @@
 				  <a href="https://www.youtube.com/channel/UCDGcQ9Y-zfxjEm9ZZ1E4agg" class="youtube"><i class="fa fa-youtube"></i></a>
 				  <a href="https://www.linkedin.com/company/iosd/" class="linkedin"><i class="fa fa-linkedin"></i></a>
 				</div>
-	
 			  </div>
-	
-	
 			</div>
 		  </div>
 		</div>
-	
 		<div class="container">
 		  <div class="copyright">
 			<center>&copy; Copyright <strong><a style="color: #fff;" href="https://iosd.tech/">IOSD</a></strong>. All Rights Reserved</center>

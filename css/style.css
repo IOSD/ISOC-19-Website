@@ -467,6 +467,22 @@ textarea.input {
 }
 
 /*=========================================================
+	PROJECT MODALS
+===========================================================*/
+
+.modal-header { 
+  padding: 15px;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+.modal-footer {
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid #000;
+}
+
+/*=========================================================
 	SPEAKERS
 ===========================================================*/
 
@@ -944,15 +960,16 @@ textarea.input {
 
 .card {
   display: block; 
-    margin-bottom: 20px;
-    line-height: 1.42857143;
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
-    transition: box-shadow .25s; 
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 #0b0f28,0 2px 10px 0 #0b0f28; 
+  height: 320px;
+  transition: box-shadow .25s; 
 }
 .card:hover {
-  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 17px 0 #0b0f28,0 6px 20px 0 #0b0f28;
 }
 .img-card {
   width: 100%;
@@ -968,18 +985,28 @@ textarea.input {
   object-fit:cover; 
   transition: all .25s ease;
 } 
+
 .card-content {
-  padding:15px;
+  padding: 0%;
+  height: 285px;
   text-align:left;
 }
+
 .card-title {
+  height: 115px;
+  /* border-bottom: 1px solid #000; */
+  background-color: #00bfff;
   margin-top:0px;
   font-weight: 700;
   font-size: 1.65em;
+  padding: 15px;
 }
+
 .card-title a {
-  color: #000;
+  /* color: #000; */
+  color: #FFF;
   text-decoration: none !important;
+  padding-bottom: 15px;
 }
 .card-read-more {
   border-top: 1px solid #D4D4D4;
@@ -989,6 +1016,10 @@ textarea.input {
   padding:10px;
   font-weight:600;
   text-transform: uppercase
+}
+
+.card-body {
+  padding: 15px;
 }
 
 /*=========================================================
