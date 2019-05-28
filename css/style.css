@@ -964,12 +964,12 @@ textarea.input {
   line-height: 1.42857143;
   background-color: #fff;
   border-radius: 2px;
-  box-shadow: 0 2px 5px 0 #0b0f28,0 2px 10px 0 #0b0f28; 
+  box-shadow: 0 2px 5px 0 #999,0 2px 10px 0 #999; 
   height: 320px;
   transition: box-shadow .25s; 
 }
 .card:hover {
-  box-shadow: 0 8px 17px 0 #0b0f28,0 6px 20px 0 #0b0f28;
+  box-shadow: 0 8px 17px 0 #999,0 6px 20px 0 #999;
 }
 .img-card {
   width: 100%;
