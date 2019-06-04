@@ -501,6 +501,7 @@ textarea.input {
   position: relative;
   cursor: pointer;
   margin-bottom: 30px;
+  /* height: 430px; */
 }
 
 .speaker:after {
@@ -521,7 +522,8 @@ textarea.input {
 }
 
 .speaker .speaker-img>img {
-  width: 100%
+  width: 100%;
+  height: 250px;
 }
 
 .speaker .speaker-body {
@@ -534,9 +536,11 @@ textarea.input {
 .speaker .speaker-content {
   position: relative;
   padding: 30px;
+  padding-left: 0px;
   background: #00bfff;
   text-align: right;
   z-index: 20;
+  height: 175px;
 }
 
 .speaker .speaker-content>h2 {
