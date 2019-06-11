@@ -493,7 +493,32 @@ textarea.input {
 	SPEAKERS
 ===========================================================*/
 
+.btn-round-lg{
+  padding: 14.5px 25px 14.5px 25px;
+  border-radius: 37px;
+  color: #F9F9FA;
+}
 
+.btn-round-lg :hover{
+  color: #F9F9FA;
+}
+
+.abc{
+  box-shadow: 0 2px 5px 0 #999, 0 2px 10px 0 #999;
+}
+
+.btn-round{
+  border-radius: 17px;
+}
+.btn-round-sm{
+  border-radius: 15px;
+}
+.btn-round-xs{
+  border-radius: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+  
 #speakers {
   background-color: #F9F9FA;
   border-radius: .85rem;
